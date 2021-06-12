@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const commentrouter = require("./routes/comments");
 
 mongoose
-  .connect("mongodb://localhost:27017/PC06", {
+  .connect("mongodb+srv://mahendra:mahi1432@cluster0.npnds.mongodb.net/PC06?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
